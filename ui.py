@@ -1,6 +1,12 @@
 import streamlit as st
 
 def main():
+    st.set_page_config(
+    page_title="BitLocks",
+    page_icon="❤️",
+    layout="centered",
+)
+
     st.title("🔥 Welcome to BitLocks! 🔥")
     logo_image = 'BitLocks_logo.jpg'  # Replace 'bitlocks_logo.png' with the actual file name of your logo
     st.image(logo_image, width=150)
