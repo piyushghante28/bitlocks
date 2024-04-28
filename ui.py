@@ -2,7 +2,7 @@ import streamlit as st
 
 def main():
     st.title("Welcome to BitLocks")
-    logo_image = 'BitLocks_logo.png'  # Replace 'bitlocks_logo.png' with the actual file name of your logo
+    logo_image = 'BitLocks_logo.jpg'  # Replace 'bitlocks_logo.png' with the actual file name of your logo
     st.image(logo_image, use_column_width=True)
     st.markdown("### Quick Links:")
     encrypt_button = '[Encrypt Files with BitLocks](https://bitlocks-encryption.streamlit.app/)'
