@@ -1,4 +1,4 @@
-# import streamlit as st
+ import streamlit as st
 
 def main():
     st.set_page_config(
@@ -26,7 +26,7 @@ def main():
 
 #     st.write("In summary, BitLocks simplifies encryption and storage while enhancing security through advanced techniques and decentralized storage.")
 import io
-import streamlit as st
+#import streamlit as st
 #import snowflake_dcr as dcr
 import os
 #from zipfile import ZipFile
