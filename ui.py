@@ -4,6 +4,11 @@ def main():
     st.title("🔥 Welcome to BitLocks! 🔥")
     logo_image = 'BitLocks_logo.jpg'  # Replace 'bitlocks_logo.png' with the actual file name of your logo
     st.image(logo_image, width=150)
+    st.markdown("### Quick Links:")
+    encrypt_button = '[🔒 Encrypt Files with BitLocks](https://bitlocks-encryption.streamlit.app/)'
+    decrypt_button = '[🔓 Decrypt Files with BitLocks](https://bitlocks-decryption.streamlit.app/)'
+    st.markdown(encrypt_button, unsafe_allow_html=True)
+    st.markdown(decrypt_button, unsafe_allow_html=True)
 
     st.write("BitLocks simplifies data security by encrypting and storing sensitive files with ease. Our user-friendly interface empowers users of all levels of expertise to safeguard their data.")
 
@@ -15,11 +20,7 @@ def main():
 
     st.write("In summary, BitLocks simplifies encryption and storage while enhancing security through advanced techniques and decentralized storage.")
 
-    st.markdown("### Quick Links:")
-    encrypt_button = '[🔒 Encrypt Files with BitLocks](https://bitlocks-encryption.streamlit.app/)'
-    decrypt_button = '[🔓 Decrypt Files with BitLocks](https://bitlocks-decryption.streamlit.app/)'
-    st.markdown(encrypt_button, unsafe_allow_html=True)
-    st.markdown(decrypt_button, unsafe_allow_html=True)
+    
 
 if __name__ == "__main__":
     main()
