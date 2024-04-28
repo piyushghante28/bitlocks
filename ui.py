@@ -27,9 +27,9 @@
 #     st.write("In summary, BitLocks simplifies encryption and storage while enhancing security through advanced techniques and decentralized storage.")
 import io
 import streamlit as st
-import snowflake_dcr as dcr
+#import snowflake_dcr as dcr
 import os
-from zipfile import ZipFile
+#from zipfile import ZipFile
 
 # Page settings
 st.set_page_config(
@@ -80,7 +80,7 @@ if action == "Initial Deployment 🔐":
                 bitlocks_setup.execute()
 
             st.success("Setup Scripts Ready for Download!")
-            load_zip_buffer(bitlocks_setup, zip_buffer)
+            #load_zip_buffer(bitlocks_setup, zip_buffer)
 
 # Add other action forms similarly...
 
